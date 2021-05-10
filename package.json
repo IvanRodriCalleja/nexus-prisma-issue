@@ -1,0 +1,18 @@
+{
+  "name": "nexus-prisma-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "IvanRodriCalleja <ivanrodricalleja@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.22.1",
+    "graphql": "^15.5.0",
+    "nexus-prisma": "^0.25.0"
+  },
+  "devDependencies": {
+    "prisma": "^2.22.1"
+  }
+}
